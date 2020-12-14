@@ -35,7 +35,8 @@
       width: 20%;
       height: 20%;
       margin-left: 80px;
-      margin-top: 70px;
+      margin-top: 30px;
+      margin-bottom: 100px;
       position:  static;
       display: block;
     }
@@ -78,11 +79,11 @@
       position: absolute;
       width: 380px;
       height: 377px;
-      padding-top: 400px;
+      padding-top: 350px;
       padding-left: 80px;
       font-style: normal;
       font-weight: bold;
-      font-size: 40px;
+      font-size: 25px;
       display: flex;
       align-items: center;
       color: #FFFFFF;
@@ -102,6 +103,7 @@
    }
    .box5 {
   height: 800px;
+  margin-top: -500px;
    }
    .box {
     align-self: flex-end;
@@ -431,7 +433,14 @@ left: 100px;
   color: white;
   filter: none;
 }
-
+.txt4 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  margin-left: 650px;
+  width: 200px;
+  opacity: 0;
+}
 /* 5 день */
 .cir5:hover  {
  background-color:  rgba(231, 230, 230, 1);
@@ -574,7 +583,7 @@ z-index: 110;
   opacity: 0;
 }
 .cir8:hover .txt7  {
-  display:block;
+     display:block;
      position: relative;
      top:-455px;
      left: -270px;
@@ -582,7 +591,6 @@ z-index: 110;
      width:400px;
      opacity: 1;
 }
-
 .t5 {
   font-size: 35px;
   font-weight: bolder;
@@ -593,13 +601,103 @@ z-index: 110;
   position: relative;
   display: flex;
 }
+.pop {
+height: 800px;
+margin-top: -310px;
+left: 20%;
+position: relative;
+display: flex;
+}
+.boxes {
+  width: 300px;
+  height: 1000px;
+}
+/* первая плашечка */
+.ing {
+  width: 250px;
+  height: 60px;
+  border-radius: 100px;
+  margin-left: 80px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 22px;
+  opacity: 0.2;
+  background: white;
+}
+.ing:hover {
+  animation: 2s steps(20) sas1 infinite;
+}
+@keyframes sas1 {
+  0% {opacity: 0.2;}
+  50% {opacity: 1;}
+  100% {opacity: 0.2;}
+}
+/* вторая плашечка */
+.ing2 {
+  width: 250px;
+  height: 60px;
+  border-radius: 100px;
+margin-left: 80px;
+ margin-top: 30px;
+background: white;
+text-align: center;
+font-size: 22px;
+opacity: 0.2;
+}
+.ing2:hover {
+  animation: 2s steps(20) sas2 infinite;
+}
+@keyframes sas2 {
+  0% {opacity: 0.2;}
+  50% {opacity: 1;}
+  100% {opacity: 0.2;}
+}
+/* третья плашечка */
+.ing3 {
+  width: 250px;
+  height: 60px;
+  border-radius: 100px;
+margin-left: 80px;
+ margin-top: 30px;
+background: white;
+text-align: center;
+font-size: 22px;
+opacity: 0.2;
+}
+.ing3:hover {
+  animation: 2s steps(20) sas3 infinite;
+}
+@keyframes sas3 {
+  0% {opacity: 0.2;}
+  50% {opacity: 1;}
+  100% {opacity: 0.2;}
+}
       </style>
       </style>
       </head>
       <body>
+
       <div class="rul">
+      <img src="" alt="">
       <img class="pic2" src="images/2.png" alt="">
-      <div class="bx"> </div>
+<div class="ing" style="
+    padding-top: 17px;
+">
+  <p>пепельная стружка</p>
+</div>
+<div class="ing2" style="
+    padding-top: 7px;
+">
+  <p>тесто с вкраплением плазмы</p>
+</div>
+<div class="ing3" style="
+    padding-top: 18px;
+">
+  <p> глазурь "мрачная"</p>
+</div>
+      <div class="pop">
+        <img class="pop"src="images/pop.png" alt="">
+      </div>
       <div class="box4">
       <div class="text4">
       <p>Эта необычная кофейня сможет поразить любого человека,
@@ -628,6 +726,9 @@ z-index: 110;
       </div>
       </div>
       <p class="t5">Особые блюда</p>
+      <div class="pop">
+        <img class="pop"src="images/pop2.png" style="margin-top: 250px;"alt="">
+      </div>
 
       <div class="cir" style="margin-left:20px;"> <div class="text18">
 
@@ -659,6 +760,7 @@ z-index: 110;
             <p class="txt7">пепельный кофе</p>
       </div> </div>
       </div>
+      <!-- <img class="pop"src="images/pop.png" alt=""> -->
       <!-- <img class="pic1" src="images/1.png" style="margin-left: 35%; "alt="">
       <img class="pic3" src="images/1.png" style="margin-left: 35%; "alt=""> -->
       <div class="bx2">
